@@ -1,0 +1,78 @@
+
+.form-header{
+    background: whitesmoke;
+    width:100%;
+}
+.startform{
+    width:370px;
+    border: 1px solid rgb(185, 173, 173);
+}
+.step1code{
+    margin: 50px 0 0 20px;
+    
+    position: relative;
+}
+.stp1form{
+    position: absolute;
+   color: gray;
+    left: 12%;
+    width: 100px;
+    height: 30px;
+    background: white;
+    border-radius: 20px;
+   
+
+}
+.stp2form{
+    position: absolute;
+   color: gray;
+   
+    width: 100px;
+    height: 30px;
+    background: white;
+    border-radius: 20px;
+   
+
+}
+input{
+    width: 320px;
+    height: 40px;
+    margin: 0 10px 0 0px;
+    
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.selectopt{
+    width: 320px;
+    height: 40px;
+    margin-right: 10px;
+   
+}
+.setlabel{
+    margin-right: 170px;
+    color: gray;
+}
+.gendermale{
+    margin-right: 200px;
+    color: gray;
+}
+.radiobtn>label{
+    margin-right: 70px;
+}
+
+.radiobtn>input{
+    
+    width: 10px;
+    height: 10px;
+   
+}
+
+.fornfooter>button{
+    width: 170px;
+    height: 50px;
+    background: rgb(3, 3, 46);
+    border-radius: 30px;
+    color: white;
+    font-size: 30px;
+ }
